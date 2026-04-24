@@ -1,0 +1,39 @@
+# Build outputs
+/build/
+/Debug/
+/Release/
+
+# Object / binary files
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# STM32CubeIDE project settings (machine-specific)
+.settings/
+.metadata/
+
+# Eclipse-based IDE files
+*.launch
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+mx.scratch
+!.settings
+
+# Tool-generated but regenerable (optional)
+# Uncomment ONLY if you regenerate code from .ioc
+# Core/Src/*
+# Core/Inc/*
